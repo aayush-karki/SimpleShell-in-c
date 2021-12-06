@@ -1,0 +1,12 @@
+to make this program actually act like shell with not editing the execute file is to: 
+  std file discriptor->stdin(3) — Linux manual page -> https://man7.org/linux/man-pages/man3/stdout.3.html
+  
+  
+  to search for '(', ')', '&' for exec command see strTok(), more effective 
+  
+  add more command and functionality:
+    clear
+    pipe 
+    redirect
+  
+  

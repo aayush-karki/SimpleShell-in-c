@@ -8,3 +8,6 @@ This shell implements and supports the following command:
 ·      kill(PID): Ends the process with the given PID
 ·      exec p1(n1,qt1) p2(n2,qt2) ...: Executes the programs p1, p2 ... Each program types a message for n times and it is given a time quantum of qt msec. If the parameter (&) is given the program will be executed in the background
 ·      exit: Exits the program
+
+
+In the comming future I plan to develope this into a fullfledge shell program with a funciton to pipe, redirect, and execute external program.
